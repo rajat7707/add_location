@@ -40,8 +40,8 @@ const Location = () => {
 
 	location = location.filter( (location) => {
 		location.action =   <div>
-                            <a onClick={(e) => handleEdit(e, location, location.id)} className="textInline" title="Edit" style={{ color: "black"}} ><i className="fa fa-edit" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
-                            <a onClick={(e) => handleDelete(e, location.id)} className="textInline" title="Delete" style={{ color: "black"}}  ><i className="fa fa-trash" aria-hidden="true"></i></a>
+                            <a onClick={(e) => handleEdit(e, location, location.id)} className="textInline" title="Edit" style={{ color: "black"}} >Edit</a>&nbsp;&nbsp;&nbsp;
+                            <a onClick={(e) => handleDelete(e, location.id)} className="textInline" title="Delete" style={{ color: "black"}}  >Delete</a>
                         </div>
 
         return location;
